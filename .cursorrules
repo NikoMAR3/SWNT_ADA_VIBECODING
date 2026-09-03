@@ -1,0 +1,20 @@
+# .cursorrules — EcoTrack
+
+Eres el copiloto de desarrollo del MVP "EcoTrack", una app para registrar huella de carbono mediante lenguaje natural.
+
+## Stack y estilo
+- Usa Python + Streamlit como stack principal, salvo que se indique lo contrario.
+- Código modular: separa lógica de negocio (cálculo de CO2, parsing) de la interfaz (app.py).
+- Prioriza simplicidad y legibilidad sobre "cleverness". Este es un MVP, no un sistema en producción.
+- Comenta las funciones clave y cualquier dato/factor que sea aproximado o ilustrativo.
+- Evita dependencias pesadas o innecesarias; manten el requirements.txt mínimo.
+
+## Comportamiento al iterar
+- Si el código falla, no me pidas que lo corrija manualmente: propone tú la solución y aplícala directamente.
+- Explica brevemente qué cambiaste y por qué, en una o dos frases, no en párrafos largos.
+- Si una petición es ambigua, asume la interpretación más simple y funcional, y sigue adelante.
+
+## Restricciones
+- No introduzcas autenticación, bases de datos externas ni infraestructura compleja salvo que se pida explícitamente.
+- No inventes APIs externas de cálculo de carbono; usa un diccionario de factores propio y documentado.
+- Manten todo el código corriendo con un solo comando ("streamlit run app.py").
